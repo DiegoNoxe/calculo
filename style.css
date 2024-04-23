@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+
+body 
+{
+    background-image: linear-gradient(to right, #575454, #262626);
+}
+
+.za{
+    position: relative;
+    top: 170px;
+    margin-top: 12rem;
+    text-align: center;   
+    margin: 20px auto;
+    width: 300px; 
+    padding: 20px;
+    height: 14rem;
+    border: 10px solid #03b0f5;   
+    margin-bottom: 2rem;
+}
+
+#first{
+    margin-top: 1rem;
+}
+
+p {
+    color: rgb(34, 238, 68);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.unico{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+.enviar{
+    font-weight: bolder;
+    left: 57.9rem;
+    position: absolute;
+    margin-top: 6.0rem;
+    text-align: center;
+}
+
+.big{
+    width: 4rem;
+    font-size: 0.90rem;
+    font-weight: bolder;
+    transition: 6s;
+}
+.big:hover{
+    background-color: rgba(0, 195, 255, 0.116);
+    transition: 3s;
+    color: white;
+}
+
+#resultado{
+    color: rgb(33, 199, 102);
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20rem;
+}
+
+.limpar{
+    font-weight: bolder;
+    left: 65.5rem;
+    position: absolute;
+    margin-top: 6.0rem;
+    text-align: center;
+}
+
+.info{
+    left: 50.5rem;
+    position: absolute;
+    margin-top: 6.0rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h1 {
+    color: rgb(137, 252, 217);
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 11rem;
+}

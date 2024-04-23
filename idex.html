@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="simbolo-matematico-da-funcao.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Contas</h1>
+
+
+        <div class="za">
+        <p>Primeiro número</p>
+        <input type="number" name="first"   id="first">
+        
+        <p class="unico">Segundo número</p>
+        <input type="number" name="second"  id="second">
+
+        <p class="unico">Operação</p>
+        <input type="number" name="escolha" id="escolha">
+        </div>
+        
+        <div class="enviar">
+        <input  type="button" value="enviar" onclick="result()" class="big">
+        </div>
+
+        <div class="limpar">
+        <input  type="button" value="limpar" onclick="limpar()" class="big">
+        </div>
+
+        <div class="info">
+        <input  type="button" value="info" onclick="info()" class="big">
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+    
+    <script>
+        ///Função de limpeza
+        function limpar(){
+          document.getElementById('first').value    = ''; 
+          document.getElementById('second').value   = ''; 
+          document.getElementById('escolha').value  = ''; 
+        }
+
+        ///Informações
+        function info(){
+            window.alert('(1) Soma (2) Subtração (3) Multiplicação (4) Divisão')
+        }
+
+
+        ////Função da conta
+        function result(){
+
+        ///Colocando as variaveis
+        var s = 0
+
+        var n1 = document.getElementById('first')
+        var n2 = document.getElementById('second')
+        var n3 = document.getElementById('escolha')
+        
+
+        ///Chamando os valores 
+        var valor_one  = Number (n1.value)
+        var valor_two  = Number (n2.value)
+        var escolhendo = Number (n3.value)
+        
+        ///Arrumando os caminhos 
+        if (escolhendo == 1){
+            s = valor_one + valor_two
+            resultado.innerHTML = `A divisão entre ${valor_one} e ${valor_two} é: ${s}`
+        }
+        
+        else if (escolhendo == 2){
+            s = valor_one - valor_two
+            resultado.innerHTML = `A divisão entre ${valor_one} e ${valor_two} é: ${s}`
+        }
+
+        else if (escolhendo == 3){
+            s = valor_one * valor_two
+            resultado.innerHTML = `A divisão entre ${valor_one} e ${valor_two} é: ${s}`
+        }
+
+        else if (escolhendo == 4){
+            s = valor_one / valor_two
+
+            resultado.innerHTML = `A divisão entre ${valor_one} e ${valor_two} é: ${s}`
+        }
+        
+        else{
+            window.alert('Não foi possivel realizar a conta! Escolha invalida')
+        }
+
+        ///Deixando tudo em branco.
+        n1 = ''
+        n2 = ''
+        n3 = ''
+   
+    }
+
+    </script>
+</body>
+</html>
