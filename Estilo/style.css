@@ -88,3 +88,74 @@ h1 {
     position: relative;
     top: 11rem;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  .info{
+    left: 22.5rem;
+  }
+  
+  .enviar{
+    left: 30.5rem;
+  }
+
+  .limpar{
+    left: 37.9rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    .info{
+      left: 35.2rem;
+    }
+    
+    .enviar{
+      left: 42.5rem;
+    }
+  
+    .limpar{
+      left: 49.9rem;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 500px) {
+    .info{
+      left: 2.3rem;
+    }
+    
+    .enviar{
+      left: 9.7rem;
+    }
+  
+    .limpar{
+      left: 16.9rem;
+    }
+
+    .za{
+        width: 295px; 
+        height: 14.2rem;
+    }
+
+    h1{
+        top: 5rem;
+    }
+
+    body{
+        background-image: linear-gradient(to right, #141010, #101a27);
+    }
+
+    #resultado{
+        color: rgb(213, 250, 79);
+        font-weight: bolder;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 13rem;
+    }
+  }
