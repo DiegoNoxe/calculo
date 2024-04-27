@@ -49,11 +49,11 @@ p {
     width: 4rem;
     font-size: 0.90rem;
     font-weight: bolder;
-    transition: 6s;
+    transition: 2s;
 }
 .big:hover{
-    background-color: rgba(0, 195, 255, 0.116);
-    transition: 3s;
+    background-color: #fc76f5;
+    transition: 1s;
     color: white;
 }
 
