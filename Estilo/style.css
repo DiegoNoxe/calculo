@@ -108,7 +108,7 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .info{
       left: 35.2rem;
     }
@@ -119,6 +119,20 @@ h1 {
   
     .limpar{
       left: 49.9rem;
+    }
+  }
+
+  @media only screen and (min-width: 1600px) and (max-width: 1700px) {
+    .info{
+      left: 42.2rem;
+    }
+    
+    .enviar{
+      left: 49.5rem;
+    }
+  
+    .limpar{
+      left: 56.9rem;
     }
   }
 
