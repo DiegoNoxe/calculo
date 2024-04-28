@@ -8,6 +8,45 @@ body
     background-image: linear-gradient(to right, #575454, #262626);
 }
 
+section img{
+  position: absolute;
+  width: 39rem;
+  left: 6rem;
+}
+
+footer{
+  
+  background-color: rgb(19, 17, 14);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 176px;
+  height: 10px;
+
+}
+
+footer .pe{
+  position: relative;
+  bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+
+footer a{
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: rgb(185, 116, 224);
+}
+
+
+
+
 .za{
     position: relative;
     top: 170px;
@@ -95,6 +134,10 @@ h1 {
 
 
 @media only screen and (max-width: 1024px) {
+  section img {
+    display: none;
+  }
+  
   .info{
     left: 22.5rem;
   }
@@ -109,6 +152,11 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+  section img {
+    display: none;
+  }
+
     .info{
       left: 35.2rem;
     }
@@ -123,6 +171,10 @@ h1 {
   }
 
   @media only screen and (min-width: 1600px) and (max-width: 1700px) {
+    section img {
+      display: none;
+    }
+
     .info{
       left: 42.2rem;
     }
@@ -140,6 +192,10 @@ h1 {
 
 
   @media only screen and (max-width: 500px) {
+    section img {
+      display: none;
+    }
+
     .info{
       left: 2.3rem;
     }
